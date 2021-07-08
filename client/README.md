@@ -1,10 +1,10 @@
 
-Docker description
+#Docker description
 
-Dockerfile described with opencv image for raspbian
+##Dockerfile described with opencv image for raspbian
 
-Build image:
-  sudo docker build -t <image_name>:<tag_name> <Dockerfile_directory>
+##Build image:
+> >  sudo docker build -t <image_name>:<tag_name> <Dockerfile_directory>
 
-Run container directly:
-  sudo docker run --privileged -v /dev/video0:/dev/video0 --name=ed2ec -d -it hongsj1022/ai-go:image_transmission
+##Run container directly:
+> >  sudo docker run --privileged -v /dev/video0:/dev/video0 --name=ed2ec -d -it hongsj1022/ai-go:image_transmission
