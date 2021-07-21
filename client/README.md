@@ -8,3 +8,9 @@
 
 ## Run container directly
 >  sudo docker run --privileged -v /dev/video0:/dev/video0 --name=ed2ec -d -it hongsj1022/ai-go:ed2ec
+
+# client_ED.py
+
+## Host and Port for socket transmission are changable
+>  Host = 'xxx.xxx.xxx.xxx'
+>  Port = 'xxxx'
