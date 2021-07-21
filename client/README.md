@@ -1,9 +1,7 @@
 
 # Docker description
 
-## Dockerfile described with opencv image for raspbian
-
-## Build image
+## Build image (Dockerfile described with opencv image for raspbian)
 >  sudo docker build -t <image_name>:<tag_name> <Dockerfile_directory>
 
 ## Run container directly
