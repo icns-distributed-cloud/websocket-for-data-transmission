@@ -38,7 +38,7 @@ if __name__ == '__main__':
 	client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 	client_socket.connect((HOST, PORT))
 	start_new_thread(webcam, (enclosure_queue,))	
-	i =1
+	#i =1
 	while True:
 		message = '1'
 		client_socket.send(message.encode())
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 		client_socket.send(str(len(stringData)).ljust(16).encode())
 		# send data
 		client_socket.send(stringData)
-		print(i)
-		i = i+1
+		#print(i)
+		#i = i+1
 	
 	client_socket.close()
