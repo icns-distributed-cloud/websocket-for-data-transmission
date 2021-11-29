@@ -1,3 +1,7 @@
+#This is initial code for websocket data transmission at server
+#First pull request
+
+
 import socket 
 import cv2
 import numpy

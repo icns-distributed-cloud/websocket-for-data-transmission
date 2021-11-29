@@ -1,3 +1,8 @@
+#This is initial code for websocket datatransmission at client
+#Client is End device such as autonomous driving car
+#First pull request
+
+
 import socket 
 import numpy as np
 import cv2
